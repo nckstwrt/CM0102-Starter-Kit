@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\ILMerge.3.0.41\build\ILMerge.props" Condition="Exists('packages\ILMerge.3.0.41\build\ILMerge.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images\logo.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ManifestCertificateThumbprint>A9EB29CD077BAFCBD388623645E75381C7A6E564</ManifestCertificateThumbprint>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ProjectGuid>{40BCBBBB-AA7A-42DA-B171-894AFB77BE0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <RootNamespace>CM0102_Starter_Kit</RootNamespace>
+    <AssemblyName>CM0102StarterKit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CentreMessageBox.cs" />
+    <Compile Include="FastZip.cs" />
+    <Compile Include="ProgressWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressWindow.Designer.cs">
+      <DependentUpon>ProgressWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="AndroidMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidMenu.Designer.cs">
+      <DependentUpon>AndroidMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="HidableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HidableForm.Designer.cs">
+      <DependentUpon>HidableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NickPatcherMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NickPatcherMenu.Designer.cs">
+      <DependentUpon>NickPatcherMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VersionMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersionMenu.Designer.cs">
+      <DependentUpon>VersionMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayMenu.Designer.cs">
+      <DependentUpon>PlayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZipStorer.cs" />
+    <EmbeddedResource Include="ProgressWindow.resx">
+      <DependentUpon>ProgressWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HidableForm.resx">
+      <DependentUpon>HidableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NickPatcherMenu.resx">
+      <DependentUpon>NickPatcherMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidMenu.resx">
+      <DependentUpon>AndroidMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionMenu.resx">
+      <DependentUpon>VersionMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayMenu.resx">
+      <DependentUpon>PlayMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="data\april_data.zip" />
+    <None Include="data\cm3_data.zip" />
+    <None Include="data\cm89_data.zip" />
+    <None Include="data\cm93_data.zip" />
+    <None Include="data\luessenhoff_data.zip" />
+    <None Include="data\march_data.zip" />
+    <None Include="data\november_data.zip" />
+    <None Include="data\original_data.zip" />
+    <None Include="data\patched_data.zip" />
+    <None Include="external\Android.zip" />
+    <None Include="external\events_eng.cfg" />
+    <None Include="external\Exes.zip" />
+    <None Include="external\Game.zip" />
+    <EmbeddedResource Include="fonts\ErasDemiBT.ttf" />
+    <EmbeddedResource Include="fonts\HandelGo.ttf" />
+    <None Include="images\batigol.jpg" />
+    <None Include="images\boca.jpg" />
+    <None Include="images\owen.jpg" />
+    <None Include="images\ruud.jpg" />
+    <None Include="images\maxim.jpg" />
+    <None Include="images\logo.ico" />
+    <None Include="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="external\dotNetFx40setup.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\ILMerge.3.0.41\build\ILMerge.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\ILMerge.3.0.41\build\ILMerge.props'))" />
+  </Target>
+  <Target Name="ILMerge">
+    <Exec Command="$(ILMergeConsolePath) bin\Release\CM0102StarterKit.exe /targetplatform:v4 /out:CM0102StarterKit.exe bin\Release\ICSharpCode.SharpZipLib.dll " />
+    <Exec Command="$(ILMergeConsolePath) bin\x86\Release\CM0102StarterKit.exe /targetplatform:v4 /out:CM0102StarterKitx86.exe bin\Release\ICSharpCode.SharpZipLib.dll " />
+    <Exec Command="$(ILMergeConsolePath) bin\x64\Release\CM0102StarterKit.exe /targetplatform:v4 /out:CM0102StarterKitx64.exe bin\Release\ICSharpCode.SharpZipLib.dll " />
+  </Target>
+</Project>
