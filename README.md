@@ -76,7 +76,7 @@ I have also added the ability to save and load your own custom databases. Previo
 
 #### Nick's Patcher Menu
 
-<p align="left"><img src="https://i.imgur.com/4iMrx3A.png"/></p>
+<p align="left"><img src="https://i.imgur.com/7Ekk6Y6.png"/></p>
 
 Most of the options here are pretty straightforward, but for those that aren't, I'll give a brief explanation.
 
@@ -162,13 +162,13 @@ More details about Nick's Patcher, including what each of the standard options d
 
 #### Play Game Menu
 
-<p align="left"><img src="https://i.imgur.com/s458wDC.png"/></p>
+<p align="left"><img src="https://i.imgur.com/VAQby0L.png"/></p>
 
 This is simply where you decide whether you want to play standard CM, or you want to apply the options selected on Nick's Patcher. Please note, that the Starter Kit now detects what database you have loaded, and only allows you to select the correct options for playing, to save on any confusion.
 
 #### Android Menu
 
-<p align="left"><img src="https://i.imgur.com/rdPSpFU.png"/></p>
+<p align="left"><img src="https://i.imgur.com/wmlUW9g.png"/></p>
 
 If you have used the Starter Kit before, you will notice that this page is new. I wrote it in order to try to help people get up and running on their Android phone or tablet. I wanted to automate some of the process but there were a lot of restrictions on what I could do, so I had to resort to mainly just adding a list of instructions. Saying that, the tool will generate the exact files you need to copy across to your device in order to get it working. Just make sure you tick whether you want to add Nick's Patcher settings or not, and whether or not you are using Android 11 (there is a patch it adds if so). Make sure you follow the instructions as carefully as possible, but do bear in mind that Exagear Strategies (the software that gets installed on your Android device) doesn't always work on every phone - I have a Huawei P30 Pro and it doesn't work on there even though I'm on Android 10, because of the custom version of Android that they use. So don't be too disheartened if it turns out you cannot get it running!
 
