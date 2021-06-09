@@ -68,7 +68,7 @@ All you have to do is click on whichever one you want to use, and wait for a con
 
 #### Data Updates
 
-<p align="left"><img src="https://i.imgur.com/uvGLEQI.png"/></p>
+<p align="left"><img src="https://i.imgur.com/YcyyWy4.png"/></p>
 
 You have the choice of 9 different databases on the latest version of this tool. These data updates are what keep the game fresh and enjoyable for a lot of people, so I'm chuffed to be able to include them all here. A massive thank you again to everyone who spent so much time putting these databases together for others enjoyment.
 
