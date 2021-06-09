@@ -37,7 +37,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.starting_year_label.AutoSize = true;
             this.starting_year_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.starting_year_label.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.starting_year_label.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.starting_year_label.ForeColor = System.Drawing.Color.White;
             this.starting_year_label.Location = new System.Drawing.Point(122, 125);
             this.starting_year_label.Name = "starting_year_label";
@@ -47,7 +47,7 @@ namespace CM0102_Starter_Kit {
             // starting_year
             // 
             this.starting_year.BackColor = System.Drawing.SystemColors.Window;
-            this.starting_year.Font = new System.Drawing.Font("Savile ExtraBold", 9F, System.Drawing.FontStyle.Bold);
+            this.starting_year.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 9F, System.Drawing.FontStyle.Bold);
             this.starting_year.Location = new System.Drawing.Point(323, 125);
             this.starting_year.Maximum = new decimal(new int[] {
             2100,
@@ -73,7 +73,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.game_speed_label.AutoSize = true;
             this.game_speed_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.game_speed_label.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.game_speed_label.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.game_speed_label.ForeColor = System.Drawing.Color.White;
             this.game_speed_label.Location = new System.Drawing.Point(122, 173);
             this.game_speed_label.Name = "game_speed_label";
@@ -82,7 +82,7 @@ namespace CM0102_Starter_Kit {
             // 
             // game_speed
             // 
-            this.game_speed.Font = new System.Drawing.Font("Savile ExtraBold", 9F, System.Drawing.FontStyle.Bold);
+            this.game_speed.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 9F, System.Drawing.FontStyle.Bold);
             this.game_speed.FormattingEnabled = true;
             this.game_speed.Items.AddRange(new object[] {
             "x1",
@@ -103,7 +103,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.currency_inflation_label.AutoSize = true;
             this.currency_inflation_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.currency_inflation_label.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.currency_inflation_label.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.currency_inflation_label.ForeColor = System.Drawing.Color.White;
             this.currency_inflation_label.Location = new System.Drawing.Point(122, 224);
             this.currency_inflation_label.Name = "currency_inflation_label";
@@ -114,7 +114,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.currency_inflation.BackColor = System.Drawing.SystemColors.Window;
             this.currency_inflation.DecimalPlaces = 2;
-            this.currency_inflation.Font = new System.Drawing.Font("Savile ExtraBold", 9F, System.Drawing.FontStyle.Bold);
+            this.currency_inflation.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 9F, System.Drawing.FontStyle.Bold);
             this.currency_inflation.Increment = new decimal(new int[] {
             25,
             0,
@@ -142,7 +142,7 @@ namespace CM0102_Starter_Kit {
             this.coloured_attributes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.coloured_attributes.Checked = true;
             this.coloured_attributes.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.coloured_attributes.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.coloured_attributes.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.coloured_attributes.ForeColor = System.Drawing.Color.White;
             this.coloured_attributes.Location = new System.Drawing.Point(122, 274);
             this.coloured_attributes.Name = "coloured_attributes";
@@ -155,7 +155,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.resolution.AutoSize = true;
             this.resolution.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.resolution.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.resolution.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.resolution.ForeColor = System.Drawing.Color.White;
             this.resolution.Location = new System.Drawing.Point(122, 323);
             this.resolution.Name = "resolution";
@@ -168,7 +168,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.work_permits.AutoSize = true;
             this.work_permits.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.work_permits.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.work_permits.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.work_permits.ForeColor = System.Drawing.Color.White;
             this.work_permits.Location = new System.Drawing.Point(472, 125);
             this.work_permits.Name = "work_permits";
@@ -183,7 +183,7 @@ namespace CM0102_Starter_Kit {
             this.non_public_bids.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.non_public_bids.Checked = true;
             this.non_public_bids.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.non_public_bids.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.non_public_bids.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.non_public_bids.ForeColor = System.Drawing.Color.White;
             this.non_public_bids.Location = new System.Drawing.Point(472, 172);
             this.non_public_bids.Name = "non_public_bids";
@@ -198,7 +198,7 @@ namespace CM0102_Starter_Kit {
             this.seven_substitutes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.seven_substitutes.Checked = true;
             this.seven_substitutes.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.seven_substitutes.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.seven_substitutes.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.seven_substitutes.ForeColor = System.Drawing.Color.White;
             this.seven_substitutes.Location = new System.Drawing.Point(472, 220);
             this.seven_substitutes.Name = "seven_substitutes";
@@ -213,7 +213,7 @@ namespace CM0102_Starter_Kit {
             this.unprotected_contracts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.unprotected_contracts.Checked = true;
             this.unprotected_contracts.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.unprotected_contracts.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.unprotected_contracts.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.unprotected_contracts.ForeColor = System.Drawing.Color.White;
             this.unprotected_contracts.Location = new System.Drawing.Point(472, 274);
             this.unprotected_contracts.Name = "unprotected_contracts";
@@ -226,7 +226,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.foreign_player_limit.AutoSize = true;
             this.foreign_player_limit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.foreign_player_limit.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.foreign_player_limit.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.foreign_player_limit.ForeColor = System.Drawing.Color.White;
             this.foreign_player_limit.Location = new System.Drawing.Point(472, 323);
             this.foreign_player_limit.Name = "foreign_player_limit";
@@ -241,7 +241,7 @@ namespace CM0102_Starter_Kit {
             this.regen_fixes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.regen_fixes.Checked = true;
             this.regen_fixes.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.regen_fixes.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.regen_fixes.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.regen_fixes.ForeColor = System.Drawing.Color.White;
             this.regen_fixes.Location = new System.Drawing.Point(122, 368);
             this.regen_fixes.Name = "regen_fixes";
@@ -254,7 +254,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.force_all_players.AutoSize = true;
             this.force_all_players.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.force_all_players.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.force_all_players.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.force_all_players.ForeColor = System.Drawing.Color.White;
             this.force_all_players.Location = new System.Drawing.Point(472, 368);
             this.force_all_players.Name = "force_all_players";
@@ -267,7 +267,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.tapani_regen.AutoSize = true;
             this.tapani_regen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.tapani_regen.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.tapani_regen.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.tapani_regen.ForeColor = System.Drawing.Color.White;
             this.tapani_regen.Location = new System.Drawing.Point(122, 414);
             this.tapani_regen.Name = "tapani_regen";
@@ -280,7 +280,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.uncap.AutoSize = true;
             this.uncap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.uncap.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.uncap.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.uncap.ForeColor = System.Drawing.Color.White;
             this.uncap.Location = new System.Drawing.Point(472, 414);
             this.uncap.Name = "uncap";
@@ -293,7 +293,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.misc_patches.AutoSize = true;
             this.misc_patches.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.misc_patches.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.misc_patches.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.misc_patches.ForeColor = System.Drawing.Color.White;
             this.misc_patches.Location = new System.Drawing.Point(122, 460);
             this.misc_patches.Name = "misc_patches";
@@ -305,7 +305,7 @@ namespace CM0102_Starter_Kit {
             // protection_patches
             this.protection_patches.AutoSize = true;
             this.protection_patches.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.protection_patches.Font = new System.Drawing.Font("Savile ExtraBold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.protection_patches.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12.75F, System.Drawing.FontStyle.Bold);
             this.protection_patches.ForeColor = System.Drawing.Color.White;
             this.protection_patches.Location = new System.Drawing.Point(472, 460);
             this.protection_patches.Name = "protection_patches";
@@ -318,12 +318,12 @@ namespace CM0102_Starter_Kit {
             // 
             this.apply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.apply.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.apply.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.apply.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(173)))));
             this.apply.FlatAppearance.BorderSize = 2;
             this.apply.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.apply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.apply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.apply.Font = new System.Drawing.Font("Savile ExtraBold", 9F, System.Drawing.FontStyle.Bold);
+            this.apply.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 12F, System.Drawing.FontStyle.Bold);
             this.apply.ForeColor = System.Drawing.Color.White;
             this.apply.Location = new System.Drawing.Point(409, 507);
             this.apply.Margin = new System.Windows.Forms.Padding(0);

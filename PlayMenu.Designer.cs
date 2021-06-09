@@ -27,7 +27,7 @@ namespace CM0102_Starter_Kit {
             this.cm0102_standard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm0102_standard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm0102_standard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm0102_standard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm0102_standard.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm0102_standard.ForeColor = System.Drawing.Color.White;
             this.cm0102_standard.Location = new System.Drawing.Point(120, 144);
             this.cm0102_standard.Margin = new System.Windows.Forms.Padding(0);
@@ -48,7 +48,7 @@ namespace CM0102_Starter_Kit {
             this.cm0102_nick_patcher.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm0102_nick_patcher.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm0102_nick_patcher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm0102_nick_patcher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm0102_nick_patcher.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm0102_nick_patcher.ForeColor = System.Drawing.Color.White;
             this.cm0102_nick_patcher.Location = new System.Drawing.Point(449, 144);
             this.cm0102_nick_patcher.Margin = new System.Windows.Forms.Padding(0);
@@ -69,7 +69,7 @@ namespace CM0102_Starter_Kit {
             this.cm89_standard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm89_standard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm89_standard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm89_standard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm89_standard.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm89_standard.ForeColor = System.Drawing.Color.White;
             this.cm89_standard.Location = new System.Drawing.Point(120, 211);
             this.cm89_standard.Margin = new System.Windows.Forms.Padding(0);
@@ -90,7 +90,7 @@ namespace CM0102_Starter_Kit {
             this.cm89_nick_patcher.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm89_nick_patcher.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm89_nick_patcher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm89_nick_patcher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm89_nick_patcher.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm89_nick_patcher.ForeColor = System.Drawing.Color.White;
             this.cm89_nick_patcher.Location = new System.Drawing.Point(449, 211);
             this.cm89_nick_patcher.Margin = new System.Windows.Forms.Padding(0);
@@ -111,7 +111,7 @@ namespace CM0102_Starter_Kit {
             this.cm93_standard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm93_standard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm93_standard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm93_standard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm93_standard.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm93_standard.ForeColor = System.Drawing.Color.White;
             this.cm93_standard.Location = new System.Drawing.Point(120, 278);
             this.cm93_standard.Margin = new System.Windows.Forms.Padding(0);
@@ -132,7 +132,7 @@ namespace CM0102_Starter_Kit {
             this.cm93_nick_patcher.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm93_nick_patcher.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm93_nick_patcher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm93_nick_patcher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm93_nick_patcher.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm93_nick_patcher.ForeColor = System.Drawing.Color.White;
             this.cm93_nick_patcher.Location = new System.Drawing.Point(449, 278);
             this.cm93_nick_patcher.Margin = new System.Windows.Forms.Padding(0);
@@ -153,7 +153,7 @@ namespace CM0102_Starter_Kit {
             this.cm3_standard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm3_standard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm3_standard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm3_standard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm3_standard.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm3_standard.ForeColor = System.Drawing.Color.White;
             this.cm3_standard.Location = new System.Drawing.Point(120, 345);
             this.cm3_standard.Margin = new System.Windows.Forms.Padding(0);
@@ -174,7 +174,7 @@ namespace CM0102_Starter_Kit {
             this.cm3_nick_patcher.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cm3_nick_patcher.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.cm3_nick_patcher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cm3_nick_patcher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cm3_nick_patcher.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 15F, System.Drawing.FontStyle.Bold);
             this.cm3_nick_patcher.ForeColor = System.Drawing.Color.White;
             this.cm3_nick_patcher.Location = new System.Drawing.Point(449, 345);
             this.cm3_nick_patcher.Margin = new System.Windows.Forms.Padding(0);

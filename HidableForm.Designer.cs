@@ -137,6 +137,7 @@
             // back_button
             // 
             this.back_button.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.back_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
             this.back_button.Enabled = backButtonEnabled;
             this.back_button.Font = new System.Drawing.Font("Savile ExtraBold", 12F, System.Drawing.FontStyle.Bold);
@@ -152,6 +153,7 @@
             // next_button
             // 
             this.next_button.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.next_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.next_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(130)))), ((int)(((byte)(132)))));
             this.next_button.Enabled = false;
             this.next_button.Font = new System.Drawing.Font("Savile ExtraBold", 12F, System.Drawing.FontStyle.Bold);
