@@ -25,7 +25,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_1.AutoSize = true;
             this.step_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_1.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_1.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_1.ForeColor = System.Drawing.Color.White;
             this.step_1.Location = new System.Drawing.Point(111, 125);
             this.step_1.MaximumSize = new System.Drawing.Size(665, 0);
@@ -37,7 +37,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_2.AutoSize = true;
             this.step_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_2.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_2.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_2.ForeColor = System.Drawing.Color.White;
             this.step_2.Location = new System.Drawing.Point(111, 190);
             this.step_2.MaximumSize = new System.Drawing.Size(665, 0);
@@ -50,7 +50,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_3.AutoSize = true;
             this.step_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_3.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_3.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_3.ForeColor = System.Drawing.Color.White;
             this.step_3.Location = new System.Drawing.Point(111, 237);
             this.step_3.MaximumSize = new System.Drawing.Size(665, 0);
@@ -63,7 +63,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_4.AutoSize = true;
             this.step_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_4.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_4.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_4.ForeColor = System.Drawing.Color.White;
             this.step_4.Location = new System.Drawing.Point(111, 282);
             this.step_4.MaximumSize = new System.Drawing.Size(665, 0);
@@ -75,7 +75,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_5.AutoSize = true;
             this.step_5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_5.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_5.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_5.ForeColor = System.Drawing.Color.White;
             this.step_5.Location = new System.Drawing.Point(111, 347);
             this.step_5.MaximumSize = new System.Drawing.Size(665, 0);
@@ -89,7 +89,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.step_6.AutoSize = true;
             this.step_6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.step_6.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.step_6.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.step_6.ForeColor = System.Drawing.Color.White;
             this.step_6.Location = new System.Drawing.Point(111, 412);
             this.step_6.MaximumSize = new System.Drawing.Size(665, 0);
@@ -101,7 +101,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.nick_patcher.AutoSize = true;
             this.nick_patcher.BackColor = System.Drawing.Color.Transparent;
-            this.nick_patcher.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.nick_patcher.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.nick_patcher.ForeColor = System.Drawing.Color.White;
             this.nick_patcher.Location = new System.Drawing.Point(235, 496);
             this.nick_patcher.MaximumSize = new System.Drawing.Size(300, 0);
@@ -115,7 +115,7 @@ namespace CM0102_Starter_Kit {
             // 
             this.android_11.AutoSize = true;
             this.android_11.BackColor = System.Drawing.Color.Transparent;
-            this.android_11.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.android_11.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.android_11.ForeColor = System.Drawing.Color.White;
             this.android_11.Location = new System.Drawing.Point(235, 520);
             this.android_11.MaximumSize = new System.Drawing.Size(300, 0);
@@ -129,12 +129,12 @@ namespace CM0102_Starter_Kit {
             // 
             this.generate_files.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.generate_files.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.generate_files.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.generate_files.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(173)))));
             this.generate_files.FlatAppearance.BorderSize = 2;
             this.generate_files.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.generate_files.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(66)))));
             this.generate_files.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.generate_files.Font = new System.Drawing.Font("Savile ExtraBold", 11F, System.Drawing.FontStyle.Bold);
+            this.generate_files.Font = new System.Drawing.Font(HidableForm.ffErasDemiBt, 11F, System.Drawing.FontStyle.Bold);
             this.generate_files.ForeColor = System.Drawing.Color.White;
             this.generate_files.Location = new System.Drawing.Point(512, 506);
             this.generate_files.Margin = new System.Windows.Forms.Padding(0);
