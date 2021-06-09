@@ -76,7 +76,7 @@ I have also added the ability to save and load your own custom databases. Previo
 
 #### Nick's Patcher Menu
 
-<p align="left"><img src="https://i.ibb.co/pdsj7yR/Nick-Patcher-Menu.png"/></p>
+<p align="left"><img src="https://i.imgur.com/4iMrx3A.png"/></p>
 
 Most of the options here are pretty straightforward, but for those that aren't, I'll give a brief explanation.
 
@@ -162,7 +162,7 @@ More details about Nick's Patcher, including what each of the standard options d
 
 #### Play Game Menu
 
-<p align="left"><img src="https://i.ibb.co/sJ7WV8w/PlayMenu.png"/></p>
+<p align="left"><img src="https://i.imgur.com/s458wDC.png"/></p>
 
 This is simply where you decide whether you want to play standard CM, or you want to apply the options selected on Nick's Patcher. Please note, that the Starter Kit now detects what database you have loaded, and only allows you to select the correct options for playing, to save on any confusion.
 
