@@ -45,7 +45,7 @@ It's all very straightforward, but I will give a quick explanation about everyth
 
 #### Main Menu
 
-<p align="left"><img src="https://i.imgur.com/BvvZO5Z.png"/></p>
+<p align="left"><img src="https://i.imgur.com/0oQDlgG.png"/></p>
 
 -   **Data Updates** - This is one of the main features of the tool - you can seamlessly switch between different data updates here.
 All you have to do is click on whichever one you want to use, and wait for a confirmation of it successfully loading. Then you can start a new game and hey presto it's using the data update you wanted! Massive thank you to everyone involved in all of the data updates - some of them are years and years of hard work from one person, others are 6 months of hard work from a handful of people. All of them heroes!
