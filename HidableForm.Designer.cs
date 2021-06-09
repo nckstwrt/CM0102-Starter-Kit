@@ -21,7 +21,7 @@
             this.version_number = new System.Windows.Forms.Label();
             this.exit = new System.Windows.Forms.Button();
             this.sidenav = new System.Windows.Forms.PictureBox();
-            this.title = new System.Windows.Forms.Label();
+            this.title = new MJW.Guardian.RuntimeComponents.ShadowLabel();
             this.title_bar = new System.Windows.Forms.PictureBox();
             this.subtitle = new System.Windows.Forms.Label();
             this.subtitle_bar = new System.Windows.Forms.PictureBox();
@@ -225,7 +225,7 @@
         private System.Windows.Forms.Label version_number;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.PictureBox sidenav;
-        private System.Windows.Forms.Label title;
+        private MJW.Guardian.RuntimeComponents.ShadowLabel title;
         private System.Windows.Forms.PictureBox title_bar;
         private System.Windows.Forms.Label subtitle;
         private System.Windows.Forms.PictureBox subtitle_bar;

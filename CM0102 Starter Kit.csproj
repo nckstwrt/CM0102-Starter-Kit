@@ -108,6 +108,9 @@
     <Compile Include="NickPatcherMenu.Designer.cs">
       <DependentUpon>NickPatcherMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShadowLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="VersionMenu.cs">
       <SubType>Form</SubType>
     </Compile>
