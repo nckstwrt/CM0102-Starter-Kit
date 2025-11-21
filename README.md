@@ -1,5 +1,8 @@
 # Jon Betts's CM 01/02 Starter Kit
 
+> [!IMPORTANT]
+> **This is now unsupported!** Do not contact HaroldFinch, JonBetts or Nick+Co about this release or any issues with it!
+
 Welcome to the Jon Betts's CM 01/02 Starter Kit!
 
 This has been minorly updated by Nick+Co to have the following:
