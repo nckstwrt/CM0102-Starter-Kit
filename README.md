@@ -4,7 +4,7 @@
 > **This is now unsupported!** Do not contact HaroldFinch, JonBetts or Nick+Co about this release or any issues with it!
 
 # Download
-[Releases](https://github.com/CM0102-Starter-Kit/SafeDiscLoader/releases)
+[Download Link](https://github.com/CM0102-Starter-Kit/SafeDiscLoader/releases)
 
 Welcome to the Jon Betts's CM 01/02 Starter Kit!
 
